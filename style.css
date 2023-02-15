@@ -635,7 +635,7 @@ a {
 }
 
 .project-content-right {
-  right: 0;
+  right: -18%;
 }
 
 /* doubt in right 10% */
@@ -828,6 +828,7 @@ a {
   position: relative;
   gap: 2rem;
   justify-content: center;
+  align-items: center;
 }
 
 .skills-fade-text {
@@ -859,11 +860,20 @@ a {
 }
 
 .skills-logo {
-  width: 90px;
+  width: 80px;
   transition: all 0.5s;
   z-index: 1;
-  height: 90px;
+  height: 80px;
 }
+.aee{
+  width: 120px;
+  height: 120px;
+}
+
+.js{
+  height: 120px;
+}
+
 
 .skills-logo:hover {
   transform: scale(1.2);
