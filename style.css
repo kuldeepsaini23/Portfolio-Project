@@ -724,7 +724,7 @@ a {
 }
 
 #project3 {
-  background-image: url(assests/projects/Project5.1.png);
+  background-image: url(assests/projects/P3.png);
 }
 
 /* #project4 {
@@ -1195,3 +1195,16 @@ footer {
   }
 }
 
+
+
+
+
+.btn-project a{
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-project:hover a{
+  color: Black;
+}
