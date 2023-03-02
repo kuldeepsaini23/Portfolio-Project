@@ -26,7 +26,7 @@ lekin me apne hisab se value modify kar rha hu */
   margin: 0 auto;
 }
 
-.container-navbar{
+.container-navbar {
   width: 1200px;
   margin: 0 auto;
 }
@@ -38,7 +38,6 @@ lekin me apne hisab se value modify kar rha hu */
   padding-top: 1rem;
   flex-wrap: wrap;
 }
-
 
 .logo-container {
   display: flex;
@@ -79,7 +78,7 @@ a {
   text-decoration: none;
 }
 
-.nav-items div:hover{
+.nav-items div:hover {
   transition: 0.8s;
   transform: scale(1.2);
 }
@@ -89,18 +88,16 @@ a {
   transition: 0.8s;
 }
 
-
-
 /* hit and trail */
 
-.three-lines{
+.three-lines {
   display: none;
   margin-top: 1rem;
   margin-left: 10rem;
   margin-right: 2rem;
 }
 
-.arrows-btn{
+.arrows-btn {
   width: 100%;
   border: none;
   display: flex;
@@ -108,53 +105,50 @@ a {
   gap: 0.2rem;
 }
 
-.arrows{
+.arrows {
   height: 0.2rem;
   width: 1.5rem;
   background-color: black;
 }
 
-
-
-@media (max-width:1200px){
-  .nav-items div:hover{
+@media (max-width: 1200px) {
+  .nav-items div:hover {
     transform: none;
   }
 
-  .container-navbar{
+  .container-navbar {
     width: 100%;
     margin: 0 auto;
-    }
-  .navbar{
+  }
+
+  .navbar {
     justify-content: space-between;
   }
 
-  .logo-container{
+  .logo-container {
     margin-left: 1rem;
     padding-left: 1rem;
   }
 
-  .nav-items{
+  .nav-items {
     margin-right: 1rem;
   }
 }
 
-@media (min-width:700px) {
-  .nav-items{
+@media (min-width: 700px) {
+  .nav-items {
     display: flex;
   }
-  
 }
 
-@media (max-width:700px) {
-
-  .navbar{
+@media (max-width: 700px) {
+  .navbar {
     /* flex-direction: column; */
     align-items: flex-start;
     padding-top: 1rem;
   }
-  
-  .nav-items{
+
+  .nav-items {
     display: none;
     flex-direction: column;
     width: 100%;
@@ -163,30 +157,28 @@ a {
     background-color: rgb(230, 230, 230);
   }
 
-  .three-lines{
+  .three-lines {
     display: block;
   }
-  
 }
 
-
-@media(max-width:550px) {
-
-  .container-navbar{
-  width: 100%;
-  margin: 0 auto;
+@media (max-width: 550px) {
+  .container-navbar {
+    width: 100%;
+    margin: 0 auto;
   }
 
-  .navbar{
+  .navbar {
     width: 100%;
     margin: 0;
   }
-  .three-lines{
+
+  .three-lines {
     margin-left: 0;
     margin-right: 1rem;
   }
 
-  .nav-items{
+  .nav-items {
     width: 100%;
     margin: 0;
     padding: 1rem;
@@ -253,11 +245,10 @@ a {
 }
 
 .for-flex {
-    display: flex;
-    flex-direction: row;
-    gap: 0.4em;
-  }
-
+  display: flex;
+  flex-direction: row;
+  gap: 0.4em;
+}
 
 .btn-pink {
   background-color: var(--bgOrange);
@@ -422,8 +413,7 @@ a {
   }
 }
 
-
-@media(max-width: 1100px) {
+@media (max-width: 1100px) {
   .hero-section {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -442,7 +432,7 @@ a {
   }
 
   .user-image {
-   padding: 1.5rem;
+    padding: 1.5rem;
   }
 
   .hero-section-right {
@@ -469,15 +459,13 @@ a {
   }
 }
 
-
-@media(max-width: 1200px){
-  .for-flex{
+@media (max-width: 1200px) {
+  .for-flex {
     flex-direction: column;
   }
 }
 
-
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   .hero-section {
     gap: 0;
     margin: 1rem auto;
@@ -490,10 +478,10 @@ a {
     align-items: center;
   }
 
-  .overall-mainheading{
+  .overall-mainheading {
     font-size: 1.8rem;
   }
-  
+
   .hero-section-subheading {
     font-size: 1.2rem;
   }
@@ -699,17 +687,19 @@ a {
   z-index: -1;
 }
 
-.ae{
+/* !check this */
+
+.ae {
   width: 70px;
   height: 70px;
 }
 
-.pr{
+.pr {
   width: 42px;
   height: 42px;
 }
 
-.video{
+.video {
   width: 800px;
   height: 700px;
 }
@@ -720,7 +710,8 @@ a {
 
 #project2 {
   margin-left: 120px;
-  background-image:linear-gradient(to left, green, red),url(./assests/Video/Neon\ -\ 62064_2.mp4)
+  background-image: linear-gradient(to left, green, red),
+    url(./assests/Video/Neon\ -\ 62064_2.mp4);
 }
 
 #project3 {
@@ -860,20 +851,18 @@ a {
 }
 
 .skills-logo {
-  width: 5rem;
+  width: 4rem;
+  height: 4rem;
   transition: all 0.5s;
   z-index: 1;
-  height: 5rem;
-}
-.aee{
-  width: 7rem;
-  height: 7rem
 }
 
-.js{
-  height: 7.5rem;
+.skills-logoinner {
+  width: 3rem;
+  height: 3rem;
+  transition: all 0.5s;
+  z-index: 1;
 }
-
 
 .skills-logo:hover {
   transform: scale(1.2);
@@ -900,8 +889,7 @@ a {
   margin: 15px 0;
 }
 
-
-@media(max-width: 1300px) {
+@media (max-width: 1300px) {
   .skills-container {
     width: 90%;
     flex-direction: column;
@@ -922,7 +910,7 @@ a {
   }
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   .skills-container {
     padding: 0;
   }
@@ -939,7 +927,6 @@ a {
     width: 90%;
   }
 
-
   .skills-fade-text {
     font-size: 6em;
     right: -15%;
@@ -947,8 +934,7 @@ a {
   }
 }
 
-
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   .skills-fade-text {
     font-size: 5.5em;
     right: -15%;
@@ -1033,8 +1019,7 @@ a {
   font-size: 1.5rem;
 }
 
-
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
   .container {
     width: 80%;
   }
@@ -1059,7 +1044,7 @@ a {
   }
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   .contactus-heading {
     font-size: 3em;
   }
@@ -1153,7 +1138,6 @@ footer {
   gap: 1rem;
 }
 
-
 @media (max-width: 1100px) {
   footer {
     padding: 5rem 0;
@@ -1165,8 +1149,7 @@ footer {
   }
 }
 
-
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   .footer-wrapper {
     flex-direction: column;
     justify-content: flex-start;
@@ -1178,7 +1161,6 @@ footer {
   }
 }
 
-
 @media (max-width: 300px) {
   .footer-faded-text {
     font-size: 2rem;
@@ -1187,22 +1169,221 @@ footer {
   .icon-wrapper {
     flex-wrap: wrap;
   }
+
   .footer-icon-link {
     width: 10px;
     margin-right: 0.9em;
   }
 }
 
-
-
-
-
-.btn-project a{
+.btn-project a {
   color: white;
   font-weight: 500;
   text-decoration: none;
 }
 
-.btn-project:hover a{
+.btn-project:hover a {
   color: Black;
+}
+
+/* !Circular Animation */
+.uppercircle {
+  width: 24rem;
+  height: 24rem;
+  border: 1px solid #727272;
+  position: relative;
+  margin: auto;
+  border-radius: 50%;
+  animation: clockwise 50s linear infinite reverse;
+  z-index: -1;
+  transform-style: preserve-3d;
+}
+
+.upper-elements {
+  position: absolute;
+  top: 90px;
+  margin: auto;
+  animation: circle 50s linear infinite reverse;
+  background-color: white;
+}
+
+#css {
+  top: 100px;
+  left: -20px;
+}
+
+#Javascript {
+  top: 270px;
+  left: 0;
+}
+
+#Tailwind {
+  top: 270px;
+  left: 320px;
+}
+
+#Git {
+  top: 100px;
+  left: 340px;
+}
+
+#Github {
+  top: 354px;
+  left: 170px;
+}
+
+#html {
+  top: -40px;
+  left: 158px;
+}
+
+.inner-circle-wrapper {
+  position: absolute;
+  top: 65px;
+  left: 65px;
+  transform: none;
+  margin: auto;
+  animation: clockwise 50s linear infinite;
+}
+
+.inner-circle {
+  width: 10rem;
+  height: 10rem;
+  border: 50px solid #e97070;
+  position: relative;
+  border-radius: 50%;
+  z-index: -1;
+  animation: clockwise 50s linear infinite;
+}
+
+.inner-elements {
+  position: absolute;
+  margin: auto;
+  animation: circle 50s linear infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes clockwise {
+  from {
+    transform: rotate(1turn);
+  }
+}
+
+#kotlin {
+  top: -4px;
+}
+
+#afterEffects {
+  left: 112px;
+}
+
+#java {
+  top: 103px;
+  right: 107px;
+}
+
+#python {
+  top: 101px;
+  right: -15px;
+}
+
+#java img {
+  height: 5rem;
+}
+
+@media (max-width: 600px) {
+  .uppercircle {
+    width: 18rem;
+    height: 18rem;
+  }
+  .skills-logo {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .skills-logoinner {
+    width: 2.2rem;
+    height: 2.2rem;
+    transition: all 0.5s;
+    z-index: 1;
+  }
+
+  #css {
+    top: -1.75rem;
+    left: 7rem;
+    
+  }
+
+  #Javascript {
+    top: 2.5rem;
+    left: -0.5rem;
+  }
+
+  #Tailwind {
+    top: 11rem;
+    left: -1.25rem;
+  }
+
+  #Git {
+    top: 11rem;
+    left: 15rem;
+  }
+
+
+#Github {
+  top: 2.5rem;
+  left: 15rem;
+}
+
+#html {
+  top: 16rem;
+  left: 8rem;
+}
+
+
+
+.inner-circle-wrapper {
+    top: 40px;
+    left: 35px;
+   }
+
+.inner-circle {
+  width: 8rem;
+  height: 8rem;
+  border: 40px solid #e97070;
+}
+
+#kotlin {
+  top: -4px;
+}
+
+#afterEffects {
+  top: 6rem;
+  left: 0.75rem;
+  
+}
+
+#java {
+  top: -12px;
+  right: 0;
+}
+
+#python {
+  top: 5rem;
+  left: 93px;
+}
+
+#java img {
+  height: 4rem;
+}
+
 }
